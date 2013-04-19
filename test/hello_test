@@ -1,0 +1,13 @@
+/*jslint indent: 2*/
+/*globals TestCase, assertEquals, assertNotEquals */
+TestCase("helloTest", {
+  setUp: function () {
+  },
+
+  tearDown: function () {
+  },
+
+  "test hello should print hello world": function () {
+    assertEquals([], this.array);
+  },
+});
